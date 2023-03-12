@@ -1,0 +1,23 @@
+{
+  "user": {
+    "name": "Aditya Dixit",
+    "email": "aditya123@gmail.com",
+    "password": "aditya123"
+  },
+  "photographer": {
+    "_id": "640c5c509effee8dd0d885c0",
+    "name": "Aditya Dixit",
+    "email_id": "aditya123@gmail.com",
+    "password": "aditya123",
+    "phone_no": "1234567890",
+    "website_url": "https://www.example.com",
+    "style": ["portrait", "landscape", "sport"],
+    "Awards & recognition": "",
+    "Other Information": "",
+    "Profile Review": "",
+    "Star_Rating": "4",
+    "profile_image_id": "",
+    "banner_image_id": "",
+    "featured_images": []
+  }
+}

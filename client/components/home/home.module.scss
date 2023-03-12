@@ -1,0 +1,12 @@
+.search {
+  width: 80%;
+  position: fixed;
+  transition: 0.5s;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.fixed {
+  top: 50px;
+}

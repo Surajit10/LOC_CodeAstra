@@ -1,0 +1,83 @@
+.masonry {
+  display: flex;
+  color: white;
+}
+
+.masonryGrid {
+  transition: 0.4s;
+  display: -webkit-box;
+  /* Not needed if autoprefixing */
+  display: -ms-flexbox;
+  /* Not needed if autoprefixing */
+  display: flex;
+  /* gutter size offset */
+  width: auto;
+  margin: 0%;
+  margin-top: 130px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.masonryGridColumn {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  /* gutter size */
+  background-clip: padding-box;
+}
+.image {
+  transition: 0.4s;
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 90%;
+}
+
+.imageBox {
+  position: relative;
+}
+// .imageInfo {
+//   position: absolute;
+//   z-index: 1;
+//   /* background-color: red; */
+//   width: 92.5%;
+//   background: linear-gradient(to top, rgb(0 0 0 / 80%), rgba(0, 0, 0, 0));
+//   bottom: 0px;
+//   height: 40%;
+//   display: flex;
+//   align-items: end;
+//   padding: 12px;
+//   color: white;
+// }
+
+.imageInfo {
+  position: absolute;
+  z-index: 1;
+  /* background-color: red; */
+  width: 92.5%;
+  background: linear-gradient(to top, rgb(0 0 0 / 80%), rgba(0, 0, 0, 0));
+  bottom: 0px;
+  height: 40%;
+  display: flex;
+  align-items: end;
+  padding: 12px;
+  color: white;
+}
+.imageInfo {
+  display: none;
+}
+.imageInfo:hover,
+.imageBox:hover {
+  .imageInfo {
+    position: absolute;
+    z-index: 1;
+    /* background-color: red; */
+    width: 92.5%;
+    background: linear-gradient(to top, rgb(0 0 0 / 80%), rgba(0, 0, 0, 0));
+    bottom: 0px;
+    height: 40%;
+    display: flex;
+    align-items: end;
+    padding: 12px;
+    color: blue;
+  }
+}

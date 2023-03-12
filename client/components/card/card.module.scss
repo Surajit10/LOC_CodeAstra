@@ -1,0 +1,34 @@
+.card {
+  width: 100%;
+  max-width: 350px;
+  min-width: 300px;
+}
+.avatar {
+  border: 6px solid white;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.creator {
+  font-weight: 900;
+}
+.exp {
+  font-weight: 900;
+  opacity: 0.6;
+  font-size: 16px;
+}
+.tags {
+  margin-top: 20px;
+}
+.card {
+  transition: 0.5s;
+  scale: 1;
+}
+.card:hover {
+  transition: 0.5s;
+  scale: 1.3;
+  z-index: 1;
+}

@@ -1,0 +1,14 @@
+.search {
+  width: 80%;
+  transition: 0.5s;
+  margin: auto;
+  margin-top: 50px;
+}
+.cards {
+  transition: 0.5s;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 20px;
+}

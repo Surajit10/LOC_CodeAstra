@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Ubuntu", sans-serif;
+}
+html,
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #222831;
+}
+.active {
+  font-weight: 900;
+}
+.ant-image-mask {
+  top: 10px !important;
+
+  border-radius: 5px;
+}
