@@ -70,6 +70,7 @@ function getDataById(id) {
             document.getElementById("title").innerHTML = `<h1><center>${data.title}</center><hr/>`;
             document.getElementById("description").innerText = data.description;
             document.getElementById("category").innerText=data.category;
+            document.getElementById("date").innerText=data.createdAt;
             document.getElementById("tags").innerHTML=`<b>Tags:</b> ${data.tag}`;
             document.getElementById("image").innerHTML=`<img src="${data.image_url}" alt="" width="1200px" height="678px"/>`;
         })
