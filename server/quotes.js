@@ -10,7 +10,11 @@ mongoose.connect(conn_str, { useNewUrlParser: true , useUnifiedTopology: true})
     const quoteSchema = new mongoose.Schema({
         "job_id":String,
         "p_id":String,
-        "quote":String
+        "name": String,
+        "p_link": String,
+        "email": String,
+        "pno": String,
+        "bid_price":String 
      });
 
      const QuoteModel = new mongoose.model("quote", quoteSchema);

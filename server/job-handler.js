@@ -35,7 +35,7 @@ function loadData(records = []) {
         table_data += `<div class="card">`;
         table_data += `<h5 class="card-header">${records[i].title}</h5>`;
         table_data += `<div class="card-body">`;
-        table_data += `<p class="card-text">${records[i].requirements}</p>`;
+        table_data += `<p class="card-text"><b>Requirements: </b>${records[i].requirements || ""}</p>`;
         table_data += `</div>`;
         table_data += `<table class="table">`;
         table_data += `<tbody>`;
@@ -49,12 +49,14 @@ function loadData(records = []) {
         table_data += `<th scope="row">Pay Range:</th>`;
         table_data += `<td>${records[i].minimum + "-" + records[i].maximum}</td>`;
         table_data += `<th scope="row">Bid:</th>`;
-        table_data += `<td><button type="button" class="btn btn-primary">Primary</button>`;
+        table_data += `<td><a href="job-bid.html?id=${records[i]._id}"><button type="button"  class="btn btn-primary">Bid</button></a>`;
         table_data += `</td>`;
         table_data += `</tr>`;
         table_data += `</tbody>`;
         table_data += `</table>`;
         table_data += ` </div>`;
+        table_data += `<br/>`;
+
         
     }
     //console.log(table_data);ssss

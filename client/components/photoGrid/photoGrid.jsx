@@ -16,22 +16,22 @@ const PhotoGrid = ({ photos }) => {
     function generateRandomImage() {
       const width = Math.floor(Math.random() * 1000) + 100;
       const height = Math.floor(Math.random() * (400 - 400 + 1)) + 300;
-      const imageURL = `https://picsum.photos/${width}/${height}`;
+      const imageURL = `https://source.unsplash.com/random`;
       return imageURL;
     }
 
-    for (let i = 0; i <= 20; i++) {
-      images.push({
-        url: generateRandomImage(),
-        details: "random text",
-        creator: {
-          name: "Surajit",
-          avatar:
-            "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1580&q=80",
-          id: "640c5c509effee8dd0d885c0",
-        },
-      });
-    }
+    // for (let i = 0; i <= 20; i++) {
+    //   images.push({
+    //     url: generateRandomImage(),
+    //     details: "random text",
+    //     creator: {
+    //       name: "Surajit",
+    //       avatar:
+    //         "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1580&q=80",
+    //       id: "640c5c509effee8dd0d885c0",
+    //     },
+    //   });
+    // }
 
     for (let i = 0; i <= photos.length; i++) {
       images.push({
